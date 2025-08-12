@@ -8,3 +8,5 @@ def test_calcular_media_entrada_basica_sem_erro():
 
     #Checo a saída
     assert resultado == 5.5
+
+
