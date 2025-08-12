@@ -1,4 +1,10 @@
 def calcular_media(notas:list[float]) -> float:
+    """Calcula a média de uma lista de notas.
+    Parâmetros:
+    notas(list[float]): Lista de notas a serem calculadas.
+    
+    Retorna:
+    float: A média das notas, arredondada para uma casa decimal."""
     
     #Validando se a lista é vazia
     if len(notas) == 0:
